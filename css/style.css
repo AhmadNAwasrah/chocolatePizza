@@ -1,104 +1,160 @@
 body {
-    width: 70%;
-    font-family: 'IBM Plex Serif', serif;
-    margin: 0 auto;
+    background-color: white;
   }
   
-  header div {
-    display: inline-block;
-    margin-top: 2em;
+  header {
     
-  }
-  
-  h4 {
-    font-family: 'Yellowtail', cursive;
-    font-size: 2.3em;
-  }
-  
-  h5 {
-    font-family: 'VT323', monospace; 
-    color: grey;
-    font-size: 13px;
-    margin-left: 7px;
-  
+    width: 100%;
+    height: 150px;
   }
   
   header ul {
-  
     float: right;
-    margin-top: 2.5em;
-    margin-left: 10px;
-  
   }
   
-  header ul li {
-    display: inline-block;
-  
+  header li {
+    display: inline;
   }
   
-  header ul:last-child {
-    margin-left: 4em;
+  article p {
+    padding: 10px 0px;
+    text-indent: 25px;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
-  hr {
-    height: 10px;
-      background: url(https://github.com/LTUC/amman-irbid-201d24/blob/main/class-10/lab-a/lab-assets/hr-img.png) repeat-x 0 0;
-    border: 0;
-    transform: rotate(180dec);
+  article li {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
   }
   
-  h1 {
-    font-family: 'Francois One', sans-serif;
-    font-size: 30px;
-    margin-top: 1em;
-  }
-  
-  h2 {
-    font-family: 'VT323', monospace; 
-    font-size: 13px;
-    color: grey;
-  }
-  
-  #cake {
+  footer {
+    overflow: auto;
     width: 100%;
-  
   }
   
-  #divofdivs{
-    background: url(https://github.com/LTUC/amman-irbid-201d24/blob/main/class-10/lab-a/lab-assets/list-bg.png?raw=true;);
+  input[type="checkbox"]:checked {
+    text-decoration: line-through;
   }
   
-  .col1, .col2 {
+  .forkAndKnife {
+    float:left;
+    width: 42px;
+    /*height: 200px; change pic size to see where text shows in relation to it
+    width: 200px;*/
+  }
   
-    width: 400px;
+  
+  #headerImageAndText {
+    width: 200px;
     float: left;
-    margin-left: 130px;
   }
   
-  main div form label {
-    display: block;
+  #delicious {
+    font-family: Lucida Calligraphy, sans-serif;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top:auto;
+    margin-bottom: auto;
+    width: 200px;
   }
   
-  p {
-    text-indent: 30px;
-    margin-top: 30px;
-  
+  #bestFood {
+    font-family: Eurostile, sans-serif;
+    font-size: 10px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: auto;
   }
   
+  .topBorder {
+    height: 15px;
+    width: 901px;
+    margin: 1px;
+    background-color: darkgrey;
+    
+  }
   
-   footer img:first-child{
-     display: inline-block;
-   }
+  #pizzaTitle {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
   
+  #posting {
+    float: left;
+    margin-top: 0px;
+    color: gray;
+    font-size: 12px;
+  }
   
-  /* font-family: 'VT323', monospace; The BEST FOOD BLOG
-  font-family: 'Yellowtail', cursive; for Delicous
-  font-family: 'Francois One', sans-serif;
-  font-family: 'IBM Plex Sans', sans-serif; */
+  #printer1 {
+    float: right;
+    margin-top: 0px;
+    color: gray;
+    font-size: 12px;
+  }
+  
+  #checkbox {
+    background-image: url("https://github.com/LTUC/amman-irbid-201d24/blob/main/class-10/lab-a/lab-assets/list-bg.png?raw=true");
 
-  .divheader{
-      height: 20px;
-      width: 100%;
-      background-color: darkgrey;
-      
+    
+    overflow: auto;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #checkbox1 {
+      /* background-image: url("https://github.com/LTUC/amman-irbid-201d24/blob/main/class-10/lab-a/lab-assets/list-bg.png?raw=true"); */
+    float:left;
+    padding-left: 80px;
+    padding-right: 150px;
+  }
+  
+  #checkbox2 {
+    /* background-image: url("https://github.com/LTUC/amman-irbid-201d24/blob/main/class-10/lab-a/lab-assets/list-bg.png?raw=true"); */
+
+    float: right;
+    
+  }
+  
+  #footer {
+    width: 700px;
+    float: left;
+  }
+  
+  #vanessaphoto {
+    float: left;
+  }
+  
+  #author {
+    float: left;
+    margin: 2px;
+  }
+  
+  #aboutVanessa {
+    float: left;
+    margin: 2px;
+  }
+  
+  #shareButton {
+    width: 70px;
+    height: 40px;
+    background: rgb(156, 30, 30);
+    text-align: center;
+    float: right;
+  }
+  
+  #footerLogo {
+    margin-left:  400px ;
+    clear: both;
+  }
+  
+  #page {
+    width: 901px;
+    margin: 0 auto;
+  }
+  #cbox3:checked + label {
+    color:blue;
+    text-decoration: line-through;
   }
